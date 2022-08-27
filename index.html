@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paionner Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <div class="login-area" id="login-area">
+        <div class="container">
+            <h2>Welcome To Paionner Bank</h2>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="password" name="Password" id="Password" placeholder="Enter your password">
+            <input type="submit" value="submit" id="pai-submit">
+        </div>
+    </div>
+    <!-- Login Area Finished -->
+
+    <!-- Login Dashboard Start -->
+    <div id="login-dashboard">
+        <div class="loginDashboard">
+            <div class="container">
+                <div class="calculation">
+                    <div class="deposit">
+                        <h2>Deposit</h2>
+                        <h1>$<span id="depositeValue">00</span></h1>
+                    </div>
+                    <div class="withdraw">
+                        <h2>Withdraw</h2>
+                        <h1>$<span id="withdrawValue">00</span></h1>
+                    </div>
+                    <div class="balance">
+                        <h2>Balance</h2>
+                        <h1>$<span id="balanceValue">1240</span></h1>
+                    </div>
+                </div>
+                <div class="input-form">
+                    <div class="deposit-input item">
+                        <h2>Deposit</h2>
+                        <input type="number" name="deposit" id="depositInput"  placeholder="$ Add">
+                        <input type="submit" value="submit" id="dipSubmit" class="submit">
+                    </div>
+                    <div class="withdraw-input item">
+                        <h2>Withdraw</h2>
+                        <input type="number" name="withdraw" id="withdraw" placeholder="$ Withdraw">
+                        <input type="submit" value="submit" id="withdrawsubmit" class="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
